@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Exec=xautolock -time 1 -locker 'i3lock -e -i ~/Pictures/mlsftwrs_back.png -p default -n'
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name[en_NG]=ScreenLocker
+Name=Terminal
+Comment[en_NG]=Lock
+Comment=Autolock Setup
