@@ -108,6 +108,10 @@ set_themes(){
 
 set_themes ${THEME_SRC} flat-remix-master 0
 set_themes ${THEME_SRC_GTK} flat-remix-gtk-master 1
+if [ -d "~/temp" ];
+then
+    rm -rf ~/temp
+fi
 
 #Cursor Installation
 sudo add-apt-repository ppa:starlabs/ppa
