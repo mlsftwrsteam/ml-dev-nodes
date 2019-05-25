@@ -8,6 +8,6 @@ pkg-config
 clisp
 sbcl
 i3lock
-gnome_tweaks
+gnome-tweaks
 git
 software-properties-common

@@ -17,7 +17,7 @@ NORMAL_FMT="\e[0m"
 
 
 ### Create 'mlsftwrs' public dir in var ###
-if [ -d "${PUBLIC_DIR}"];
+if [ -d "${PUBLIC_DIR}" ];
 then
     echo "${PUBLIC_DIR} exists already..."
 else
@@ -119,3 +119,8 @@ sudo apt install starlabs-cursor-theme
 git config --global user.name "ml.sftwrs developer"
 git config --global user.email "dev@mlsftwrs.ml"
 git config --global core.editor emacs
+
+sudo apt-get autoremove
+echo "Configuration completed!"
+
+#reboot

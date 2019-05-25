@@ -4,7 +4,7 @@ BASHRC=$1
 PROMPT=$2
 PUBLIC_DIR=$3
 
-cat /etc/skel/./bashrc > ${BASHRC}
+cat /etc/skel/.bashrc > ${BASHRC}
 
 echo "Writing to ${USER} .bashrc..."
 echo "### SCRIPT AUTOMATATICALLY - WRITTEN to .bashrc" >> ${BASHRC}
