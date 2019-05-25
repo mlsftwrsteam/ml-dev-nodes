@@ -113,7 +113,7 @@ set_themes ${THEME_SRC_GTK} flat-remix-gtk-master 1
 #Cursor Installation
 sudo add-apt-repository ppa:starlabs/ppa
 sudo apt update
-sudo apt install starlabs-cursor-theme
+sudo apt install starlabs-cursor-theme -y
 
 ### TODO: GIT CONFIG: TO BE CUSTOMIZED FOR USER SPECIFICI ###
 git config --global user.name "ml.sftwrs developer"
