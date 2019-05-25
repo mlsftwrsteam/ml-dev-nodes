@@ -21,7 +21,8 @@ echo "" >> ${BASHRC}
 
 echo "## Terminal Message" >> ${BASHRC}
 echo "toilet \"ml.sftwrs\" --gay" >> ${BASHRC}
-echo "cat ${PUBLIC_DIR}/ml.message" >> ${BASHRC}
+echo "" >> ${BASHRC}
+echo "cat /var/public/mlsftwrs/ml.message" >> ${BASHRC}
 printf "\n" >> ${BASHRC}
 
 echo "You should manually review the ${USER}'s .bashrc for inconsistencies..."
