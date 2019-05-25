@@ -7,21 +7,21 @@ PUBLIC_DIR=$3
 cat /etc/skel/.bashrc > ${BASHRC}
 
 echo "Writing to ${USER} .bashrc..."
-echo "### SCRIPT AUTOMATATICALLY - WRITTEN to .bashrc" >> ${BASHRC}
-printf "\n" >> ${BASHRC}
+sudo echo "### SCRIPT AUTOMATATICALLY - WRITTEN to .bashrc" >> ${BASHRC}
+sudo printf "\n" >> ${BASHRC}
 
-echo "## SHELL CONFIGURATION for USER_ACCOUNT" >> ${BASHRC}
-echo  ${PROMPT} >> ${BASHRC}
-printf "\n" >> ${BASHRC}
+sudo echo "## SHELL CONFIGURATION for USER_ACCOUNT" >> ${BASHRC}
+sudo echo  ${PROMPT} >> ${BASHRC}
+sudo printf "\n" >> ${BASHRC}
 
-echo "## EMACS ALIASING" >> ${BASHRC}
-echo "alias emacs=\"emacs -nw\"" >> ${BASHRC}
-echo "\n" >> ${BASHRC}
+sudo echo "## EMACS ALIASING" >> ${BASHRC}
+sudo echo "alias emacs=\"emacs -nw\"" >> ${BASHRC}
+sudo echo "\n" >> ${BASHRC}
 
-echo "## Terminal Message" >> ${BASHRC}
-echo "toilet \"ml.sftwrs\" --gay" >> ${BASHRC}
-echo "cat ${PUBLIC_DIR}/ml.message" >> ${BASHRC}
-printf "\n" >> ${BASHRC}
+sudo echo "## Terminal Message" >> ${BASHRC}
+sudo echo "toilet \"ml.sftwrs\" --gay" >> ${BASHRC}
+sudo echo "cat ${PUBLIC_DIR}/ml.message" >> ${BASHRC}
+sudo printf "\n" >> ${BASHRC}
 
 echo "You should manually review the ${USER}'s .bashrc for inconsistencies..."
 

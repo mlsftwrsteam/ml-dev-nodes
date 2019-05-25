@@ -9,7 +9,7 @@
 #
 
 ML_PUBLIC=/var/public
-PUBLIC_DIR=${ML_SRC}/mlsftwrs
+PUBLIC_DIR=${ML_PUBLIC}/mlsftwrs
 GITHUB_REPO="https://raw.githubusercontent.com/mlsftwrsteam/ml-dev-nodes/master/res"
 STATUS_FMT="\e[31m"
 NOTIFY_FMT="\e[34m"
@@ -67,7 +67,7 @@ bash ${PUBLIC_DIR}/mongo_install.sh
 
 ### BASHRC MODIFICATION ###
 BASHRC=${HOME}/.bashrc
-PROMPT="PS1=\"\[\033[01;32m\]\u\[\033[01;33m\]:\[\033[04:31m\]\W\[^[[m\]\[\033[01;33m\]$\""
+PROMPT="PS1='\[\033[01;32m\]\u\[\033[01;33m\]:\[\033[04:31m\]\W\[\[\033[01;33m\]$ '"
 bash ${PUBLIC_DIR}/generate_wlc.sh
 bash ${PUBLIC_DIR}/write_bashrc.sh ${BASHRC} ${PROMPT} ${PUBLIC_DIR}
 
