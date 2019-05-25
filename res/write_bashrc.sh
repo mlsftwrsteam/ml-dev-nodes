@@ -8,11 +8,12 @@ cat /etc/skel/.bashrc > ${BASHRC}
 
 echo "Writing to ${USER} .bashrc..."
 echo "" >> ${BASHRC}
+echo "" >> ${BASHRC}
 echo "### SCRIPT AUTOMATATICALLY - WRITTEN to .bashrc" >> ${BASHRC}
 printf "\n" >> ${BASHRC}
 
 echo "## SHELL CONFIGURATION for USER_ACCOUNT" >> ${BASHRC}
-echo  "$(cat /var/public/mlsftwrs/prompt)" >> ${BASHRC}
+echo  "PS1=$(cat /var/public/mlsftwrs/prompt)" >> ${BASHRC}
 printf "\n" >> ${BASHRC}
 
 echo "## EMACS ALIASING" >> ${BASHRC}
