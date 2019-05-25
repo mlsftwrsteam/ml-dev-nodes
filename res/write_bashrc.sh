@@ -7,6 +7,7 @@ PUBLIC_DIR=$3
 cat /etc/skel/.bashrc > ${BASHRC}
 
 echo "Writing to ${USER} .bashrc..."
+sudo echo ""
 sudo echo "### SCRIPT AUTOMATATICALLY - WRITTEN to .bashrc" >> ${BASHRC}
 sudo printf "\n" >> ${BASHRC}
 
