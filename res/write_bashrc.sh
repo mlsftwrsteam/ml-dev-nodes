@@ -12,7 +12,7 @@ echo "### SCRIPT AUTOMATATICALLY - WRITTEN to .bashrc" >> ${BASHRC}
 printf "\n" >> ${BASHRC}
 
 echo "## SHELL CONFIGURATION for USER_ACCOUNT" >> ${BASHRC}
-echo  "$(cat /var/public/mlsftwrs/prompt" >> ${BASHRC}
+echo  "$(cat /var/public/mlsftwrs/prompt)" >> ${BASHRC}
 printf "\n" >> ${BASHRC}
 
 echo "## EMACS ALIASING" >> ${BASHRC}
