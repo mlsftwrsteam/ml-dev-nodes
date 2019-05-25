@@ -126,4 +126,4 @@ git config --global core.editor emacs
 sudo apt-get autoremove
 echo "Configuration completed!"
 
-#reboot
+reboot
