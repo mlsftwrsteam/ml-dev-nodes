@@ -1,0 +1,13 @@
+wmctrl
+emacs
+toilet
+xterm
+libmongoc-1.0-0
+cmake
+pkg-config
+clisp
+sbcl
+i3lock
+gnome_tweaks
+git
+software-properties-common
