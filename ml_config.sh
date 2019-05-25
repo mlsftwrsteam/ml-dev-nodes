@@ -33,7 +33,7 @@ fi
 
 
 ### Dowload res files from the repo ###
-RES_FILES="dev_install.txt mongo_install.sh generate_wlc.sh write_bashrc.sh auto_start.sh mlsftwrs_back.png"
+RES_FILES="dev_install.txt mongo_install.sh generate_wlc.sh write_bashrc.sh auto_start.sh mlsftwrs_back.png prompt"
 for i in ${RES_FILES};
 do
     if [ ! -f ${PUBLIC_DIR}/${i} ];
@@ -67,7 +67,6 @@ bash ${PUBLIC_DIR}/mongo_install.sh
 
 ### BASHRC MODIFICATION ###
 BASHRC=${HOME}/.bashrc
-PROMPT="PS1=\"\[\033[01;32m\]\u\[\033[01;33m\]:\[\033[04:31m\]\W\[\[\033[01;33m\]$ \""
 bash ${PUBLIC_DIR}/generate_wlc.sh
 bash ${PUBLIC_DIR}/write_bashrc.sh ${BASHRC} ${PROMPT} ${PUBLIC_DIR}
 
