@@ -29,4 +29,6 @@ printf "%s\n\n\n\n" "${RED}>${BLUE} 'With great power comes great responsibility
 printf "%s" "${RED}>>> ${BLUE} ml${GREEN}.${BLUE}sf${YELLOW}t${BLUE}wr${RED}s ${BLUE} terminal 2019" >> ${FILE_SRC}
 printf "%s\n\n" " ${RED} <<<" >> ${FILE_SRC}
 
+cat ${FILE_SRC}
+
 sudo mv ${FILE_SRC} /var/public/mlsftwrs/
