@@ -74,7 +74,7 @@ bash ${PUBLIC_DIR}/write_bashrc.sh ${BASHRC} ${PROMPT} ${PUBLIC_DIR}
 ### AUTOSTART : Terminal WKSTATIONS setups & i3lock(5minutes) ####
 TERM_LINES=$(tput lines)
 TERM_COLS=$(tput cols)
-bash ${PUBLIC_DIR}/auto_start.sh ${TERM_COLS} ${TERM_LINES}
+bash ${PUBLIC_DIR}/auto_start.sh 227 54
 
 
 ### THEMES CONFIGURATION: GNOME && GTK ENVIRONMENT ONLY ###
