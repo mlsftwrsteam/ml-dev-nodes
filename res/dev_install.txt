@@ -11,4 +11,4 @@ i3lock
 gnome-tweaks
 git
 software-properties-common
-vim-common
+vim-gui-common

@@ -124,6 +124,8 @@ git config --global user.name "ml.sftwrs developer"
 git config --global user.email "dev@mlsftwrs.ml"
 git config --global core.editor emacs
 
+update-alternatives --display vim
+
 sudo apt-get autoremove
 echo "Configuration completed!"
 
