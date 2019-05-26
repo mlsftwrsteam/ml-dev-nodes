@@ -12,3 +12,4 @@ gnome-tweaks
 git
 software-properties-common
 vim-gui-common
+xautolock
