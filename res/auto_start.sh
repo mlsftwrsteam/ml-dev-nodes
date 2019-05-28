@@ -9,7 +9,12 @@ _CONFIG_=""
 AUTO_CONFIG=/home/${USER}/.config/autostart
 
 ## Clean up current config
-rm ${AUTO_CONFIG}/*
+if [ ! -d ${AUTO_CONFIG} ];
+then
+    mkdir ${AUTO_CONFIG}
+else
+    rm ${AUTO_CONFIG}/*
+fi
 
 read -p "Enter number of terminal x-window for ${USER}[2,3]: " TERM_NUMBER
 while [ ${TERM_NUMBER} -lt 2 ] || [ ${TERM_NUMBER} -gt 3 ];
