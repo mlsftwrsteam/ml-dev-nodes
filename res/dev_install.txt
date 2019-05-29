@@ -2,7 +2,6 @@ wmctrl
 emacs
 toilet
 xterm
-libmongoc-1.0-0
 cmake
 pkg-config
 clisp
