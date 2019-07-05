@@ -7,3 +7,6 @@
   - Kali Light:						Test/Admin
   - Archlinux(replace deb based packages):	      	Development
   - Elementary:	      	  				Lightweight/Support/Front-End
+- DEVELOPMENT ENV
+- Permissions
+- LFS - CONFIG
