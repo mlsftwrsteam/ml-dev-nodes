@@ -6,6 +6,7 @@
   - Debian9(Stretch):					Developmnet/Admin
   - Kali Light:						Test/Admin
   - Archlinux(replace deb based packages):	      	Development
+  - Slackware
   - Elementary:	      	  				Lightweight/Support/Front-End
 - DEVELOPMENT ENV
 - Permissions
